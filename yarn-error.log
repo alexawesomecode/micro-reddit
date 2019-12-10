@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add --dev webpack-dev-server
+
+PATH: 
+  /home/alex/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/bin:/home/alex/.rbenv/versions/2.6.5/bin:/home/alex/.rbenv/libexec:/home/alex/.rbenv/plugins/ruby-build/bin:/home/alex/.rbenv/shims:/home/alex/.rbenv/bin:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/alex/.rvm/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  8.16.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EIO: i/o error, copyfile '/home/alex/.cache/yarn/v6/npm-lodash-4.17.15-b447f6670a0455bbfeedd11392eff330ea097548-integrity/node_modules/lodash/flip.js' -> '/home/alex/projects/microverse/rails/micro-reddit/node_modules/lodash/flip.js'
+
+npm manifest: 
+  {
+    "name": "micro_reddit",
+    "private": true,
+    "dependencies": {
+      "@rails/ujs": "^6.0.0",
+      "turbolinks": "^5.2.0",
+      "@rails/activestorage": "^6.0.0",
+      "@rails/actioncable": "^6.0.0"
+    },
+    "version": "0.1.0"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
